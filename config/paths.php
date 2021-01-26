@@ -63,17 +63,17 @@ define('TESTS', ROOT . DS . 'tests' . DS);
 /*
  * Path to the temporary files directory.
  */
-define('TMP', ROOT . DS . 'tmp' . DS);
+define('TMP', DS . 'tmp' . DS);
 
 /*
  * Path to the logs directory.
  */
-define('LOGS', ROOT . DS . 'logs' . DS);
+define('LOGS', TMP);
 
 /*
  * Path to the cache files directory. It can be shared between hosts in a multi-server setup.
  */
-define('CACHE', TMP . 'cache' . DS);
+define('CACHE', TMP );
 
 /*
  * Path to the resources directory.

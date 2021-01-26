@@ -21,6 +21,10 @@
         "APP_NAME": "__CAKEPHP_ON_VERCEL__",
         "APP_ENCODING": "UTF-8",
         "APP_DEFAULT_LOCALE": "en_US",
-        "APP_DEFAULT_TIMEZONE" : "UTC"
+        "APP_DEFAULT_TIMEZONE" : "UTC",
+        "DATABASE_HOST": "127.0.0.1",
+        "DATABASE_USER": "user",
+        "DATABASE_PASSWORD": "password",
+        "DATABASE_DATABASE": "db_name"
     }
 }
