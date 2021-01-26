@@ -14,5 +14,13 @@
             "src": "/(.*)",
             "dest": "api/index.php"
         }
-    ]
+    ],
+    "env": {
+        "DEBUG": "true",
+        "SECURITY_SALT": "____SALT____",
+        "APP_NAME": "__CAKEPHP_ON_VERCEL__",
+        "APP_ENCODING": "UTF-8",
+        "APP_DEFAULT_LOCALE": "en_US",
+        "APP_DEFAULT_TIMEZONE" : "UTC"
+    }
 }
